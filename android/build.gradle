@@ -35,7 +35,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
 
     sourceSets {
@@ -48,6 +48,10 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+}
+
+kotlin {
+    jvmToolchain(11)  // 显式设置 Kotlin 使用 JDK 11
 }
 
 dependencies {}
