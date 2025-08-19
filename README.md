@@ -1,0 +1,3 @@
+用于flutter软件保存图片至本地相册。
+合并了github.com/hui-z/image_gallery_saver和github.com/wgh136/image_gallery_saver
+仅供构建pica_comic使用
